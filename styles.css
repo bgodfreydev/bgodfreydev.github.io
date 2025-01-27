@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+.header,
+.footer {
+
+}
+
+.header {
+
+}
+
+.footer {
+    background-color: 1F2937;
+    justify-content: center;
+}
+
+ul {
+
+}
+
+a {
+
+}
