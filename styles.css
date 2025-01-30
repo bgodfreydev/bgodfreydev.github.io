@@ -8,10 +8,6 @@ body {
     flex-direction: column;
 }
 
-.body {
-
-}
-
 .navbar,
 .footer {
     background-color: #1F2937;
@@ -75,7 +71,7 @@ body {
     padding-bottom: 8px;
 }
 
-.section-01 .button {
+.section-01 button {
     border: none;
     border-radius: 8px;
     background: #3882f6;
@@ -90,19 +86,34 @@ body {
 }
 
 .section-02 {
-    background-color: ;
-    color: ;
+    background-color: #F9FAF8;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     padding: 48px 0px;
 }
 
-
-
-.section-02 .header{
-    background-color: #F9FAF8;
+.section-02 .inner-container {
+    flex-direction: column;
+    gap: 24px;
 }
 
+.section-02 .header{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section-02 .items {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+section-02 .item {
+    border-radius: 8px;
+    border-color: #3882f6;
+}
 
 .section-03 {
     background-color: #E5E7EB;
@@ -177,10 +188,6 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
-}
-
-li {
-
 }
 
 a {
