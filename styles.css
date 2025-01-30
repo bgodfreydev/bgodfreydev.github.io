@@ -1,26 +1,15 @@
 body {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
     font-family: "Roboto", sans-serif;
     margin: 0;
-    /* max-width: 720px; */
-    /* min-height: 100vs; */
-    /* margin: auto; */
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* max-width: 720px; */
 }
 
 .body {
-    /* flex: 1;
-    display: flex; */
-    /* align-items: center; */
+
 }
 
 .navbar,
@@ -30,11 +19,12 @@ body {
 }
 
 .navbar {
-
+    display: flex;
+    justify-content: center;
 }
 
 .navbar .inner-container{
-    display: flex;
+    flex: 1;
     justify-content: space-between;
     padding: 16px;
 }
@@ -64,13 +54,25 @@ body {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    /* margin: 48px auto; */
     padding: 48px;
+}
+
+.section-01 .inner-container {
+    gap: 48px;
+}
+
+.section-01 .left {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-01 .header {
     font-weight: 900;
     font-size: 36px;
+}
+
+.section-01 .description {
+    padding-bottom: 8px;
 }
 
 .section-01 .button {
@@ -82,13 +84,19 @@ body {
     margin-right: auto;
 }
 
+.section-01 img {
+    height: 200px;
+    width: 300px;
+}
+
 .section-02 {
     background-color: ;
     color: ;
     display: flex;
     justify-content: center;
-    padding: ;
+    padding: 48px 0px;
 }
+
 
 
 .section-02 .header{
@@ -108,20 +116,19 @@ body {
 
 .section-03 .inner-container {
     flex-direction: column;
+    max-width: 500px;
+    gap: 12px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    padding: 0px 48px 0px 48px;
 }
 
 .author {
     margin-left: auto;
     font-weight: 900;
-    padding-right: 96px;
-    padding-top: 12px;
 }
 
 .section-04 {
@@ -129,21 +136,31 @@ body {
     border-radius: 8px;
     background: #3882f6;
     color: #E5E7EB;
-    padding: 12px 0px 12px 0px;
+    padding: 12px;
     display: flex;
-    align-items: center;
     margin: 48px auto;
     max-width: 720px;
 }
 
-.section-04 .right {
+.section-04 .inner-container {
+    display: flex;
+    flex: 1;
+    padding: 24px 48px;
+}
+
+.section-04 .left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    gap: 4px;
+}
+
+.section-04 .header {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.section-04 .right {
+    margin-left: auto;
 }
 
 .section-04 button {
