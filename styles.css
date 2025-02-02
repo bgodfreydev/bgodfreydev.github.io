@@ -62,9 +62,11 @@ body {
 	flex-direction: column;
 }
 
-.section-01 .header {
+.section-01 h1 {
 	font-weight: 900;
 	font-size: 36px;
+	margin: 0;
+	padding: 0;
 }
 
 .section-01 .description {
@@ -98,10 +100,12 @@ body {
 	gap: 24px;
 }
 
-.section-02 .header {
+.section-02 h2 {
 	font-size: 36px;
 	font-weight: 900;
     text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 .section-02 .items {
@@ -172,9 +176,11 @@ body {
 	gap: 4px;
 }
 
-.section-04 .header {
+.section-04 h3 {
 	font-size: 18px;
 	font-weight: 900;
+	margin: 0;
+	padding: 0;
 }
 
 .section-04 .right {
